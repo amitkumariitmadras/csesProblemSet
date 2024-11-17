@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(){
-    int n;
+    long long n;
     cin >> n;
 
     cout << n;
@@ -18,7 +18,7 @@ int main(){
         n = n / 2;
     } else{
 
-        n = n*3 + 1;
+        n = 3*n + 1;
     }
 
     cout << " " << n;
